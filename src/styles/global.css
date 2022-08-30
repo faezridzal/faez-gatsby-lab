@@ -1,0 +1,28 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 20em;
+  grid-template-rows: 6em 1fr 6em;
+}
+
+header,
+footer {
+  grid-column: 1/3;
+}
+
+/*comment these styles after getting it working, these will just allow us to see the grid */
+/* .grid-item,
+header,
+main,
+aside,
+footer {
+  border: 1px solid red !important;
+} */

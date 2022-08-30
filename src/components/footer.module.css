@@ -1,0 +1,16 @@
+.nav {
+  margin-top: 30px;
+}
+.link {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #4b5563;
+  text-decoration: none;
+}
+.link:hover {
+  color: #f87171;
+  text-decoration: underline;
+}
+.first {
+  margin-left: 0px;
+}
